@@ -1,0 +1,47 @@
+h1 {
+    font: smaller;
+    font-size:32px;
+    color: red;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+h2 {
+    font: smaller;
+    font-size: 24px;
+    color: green;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    background-color: lightblue;
+    text-align: justify;
+}
+
+#UMC {
+    color: purple;
+    background-color: pink;
+}
+
+#parag1 {
+    background-color: #BA55D3;
+}
+
+#parag2 {
+    background-color: 	#DA70D6;
+}
+
+#parag3 {
+    background-color: 	#EE82EE;   
+}
+
+#parag4 {
+    background-color: 	 #a7e5fb;   
+}
+
+#parag5 {
+    background-color: 	 #61d0f9;   
+}

@@ -1,0 +1,32 @@
+body {
+    width: 40vx;
+    margin: auto;
+}
+
+h1 {
+    background-color:  #a7e5fb;
+    color:  rgb(8, 82, 82);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#subtitulo1 {
+    background-color: lightgreen;
+    color: green;
+}
+
+.subtitulo {
+    background-color:  #e8b6ff;
+    color:  #ae00ff;
+}
+
+.paragrafo {
+    background-color: lightgrey;
+}
