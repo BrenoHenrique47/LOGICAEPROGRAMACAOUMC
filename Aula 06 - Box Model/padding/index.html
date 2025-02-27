@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Paddin</title>
+
+<style>
+
+        .titulo {
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+    .box {
+        text-align: center;
+        background-color: lightblue;
+        font-size: 18px;
+        border-radius: 15px;
+        border: 2px solid black;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.575);
+        width: 200px;
+    }
+
+    #box1 {
+        padding: 30px;
+    }
+
+    #box2 {
+        padding: 60px 30px;
+    }
+
+    #box3 {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    #box1:hover{
+        background-color: darkgreen;
+        cursor: pointer;
+    }
+    
+    #box2:hover{
+        background-color: darkred;
+        cursor: pointer;
+    }
+
+    #box3:hover{
+        background-color: darkblue;
+        cursor: pointer;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <h1 class = "titulo">Box Model</h1>
+    
+<div class="box" id = "box1">
+    Esta é a primeira caixa
+</div>
+<P></P>
+<div class="box" id = "box2">
+    Esta é a segunda caixa
+</div>
+<p></p>
+<div class="box" id = "box3">
+    Esta é a terceira caixa
+</div>
+    
+</body>
+</html>

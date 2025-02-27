@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Margin</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #C0C0C0;
+        }
+
+        .pai {
+            width: 60vw;
+            height: 95vw;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+            border-radius: 10p;
+            margin: 10px auto;
+            color: blueviolet;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .filho {
+            font-size: 18px;
+            text-align: center;
+            border: 2px solid black;
+            padding: 50px;
+            margin: 30px;
+        }
+
+        #filho1 {
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+            color: blueviolet;
+        }
+
+        #filho2 {
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+            color: blueviolet;
+        }
+
+        #filho3 {
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+            color: blueviolet;
+        }
+
+    </style>
+
+ </head>
+ <body>
+    
+    <div class="pai">
+
+        <h1>Trabalhando com Box Model</h1>
+
+        <div class="filho" id="filho1">
+            Primeira caixa
+        </div>
+
+        <div class="filho" id="filho2">
+            Segunda caixa
+        </div>
+
+        <div class="filho"id="filho3">
+            Terceira caixa
+        </div>
+
+    </div>
+
+    <main>
+
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </main>
+
+ </body>
+ </html>
